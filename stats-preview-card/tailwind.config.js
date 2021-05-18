@@ -10,7 +10,10 @@ module.exports = {
           black: {
             lighter: '#0a0c1b',
           },
-        }
+        },
+        backgroundImage : (theme) => ({
+          'image-header' : "url('images/image-header-desktop.jpg')",
+        }),
       },
     },
     variants: {},
