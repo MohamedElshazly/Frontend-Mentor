@@ -19,9 +19,13 @@
     <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   </head>
   <body>
-    <div class="bg-black-lighter h-screen flex justify-center items-center">
+    <div class="bg-black-lighter h-full md:h-screen sm:h-screen flex justify-center items-center">
       <!-- card -->
-      <div class="bg-blue-midnight w-3/4  flex justify-between gap-x-5 rounded"> 
+      <div class="bg-blue-midnight w-full m-10 md:w-3/4  md:flex  justify-between gap-x-5 rounded ">
+        
+        <div class="sm:hidden">
+          <img class="rounded-r" src="images/image-header-desktop.jpg" alt="">
+        </div> 
         <!-- left -->
         <div class="flex flex-col justify-center items-center">
           <!-- top call to action -->
@@ -34,7 +38,7 @@
           </div>
 
           <!-- bottom stats -->
-          <div class="flex">
+          <div class="md:flex mb-5">
             <div class="mx-5 text-white">
               <h4 class="font-bold text-xl">10k+</h4>
               <p class="text-gray-400">companies</p>
@@ -53,17 +57,16 @@
         </div>
 
         <!-- right --> 
-        <div class="h-full w-full bg-purple-600 bg-opacity-75 bg-image-header">
+        <div class=" hidden md:w-full md:flex ">
           <img class="rounded-r" src="images/image-header-desktop.jpg" alt="">
         </div>
       </div>
-    </div>
-
-    <div class="attribution">
-      Challenge by
-      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-        >Frontend Mentor</a
-      >. Coded by <a href="#">Your Name Here</a>.
-    </div>
+      <!-- <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Your Name Here</a>.
+      </div> -->
+    </div>  
   </body>
 </html>
