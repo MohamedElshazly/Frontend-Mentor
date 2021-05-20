@@ -12,7 +12,7 @@ module.exports = {
           },
         },
         backgroundImage : (theme) => ({
-          'image-header' : "url('images/image-header-desktop.jpg')",
+          'desktop-svg' : "url('images/bg-desktop.svg')",
         }),
       },
     },

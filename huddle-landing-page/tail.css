@@ -4259,8 +4259,8 @@ video {
   background-image: linear-gradient(to top left, var(--tw-gradient-stops));
 }
 
-.bg-image-header {
-  background-image: url('images/image-header-desktop.jpg');
+.bg-desktop-svg {
+  background-image: url('images/bg-desktop.svg');
 }
 
 .from-transparent {
@@ -35720,8 +35720,8 @@ video {
     background-image: linear-gradient(to top left, var(--tw-gradient-stops));
   }
 
-  .sm\:bg-image-header {
-    background-image: url('images/image-header-desktop.jpg');
+  .sm\:bg-desktop-svg {
+    background-image: url('images/bg-desktop.svg');
   }
 
   .sm\:from-transparent {
@@ -67011,8 +67011,8 @@ video {
     background-image: linear-gradient(to top left, var(--tw-gradient-stops));
   }
 
-  .md\:bg-image-header {
-    background-image: url('images/image-header-desktop.jpg');
+  .md\:bg-desktop-svg {
+    background-image: url('images/bg-desktop.svg');
   }
 
   .md\:from-transparent {
@@ -98302,8 +98302,8 @@ video {
     background-image: linear-gradient(to top left, var(--tw-gradient-stops));
   }
 
-  .lg\:bg-image-header {
-    background-image: url('images/image-header-desktop.jpg');
+  .lg\:bg-desktop-svg {
+    background-image: url('images/bg-desktop.svg');
   }
 
   .lg\:from-transparent {
@@ -129593,8 +129593,8 @@ video {
     background-image: linear-gradient(to top left, var(--tw-gradient-stops));
   }
 
-  .xl\:bg-image-header {
-    background-image: url('images/image-header-desktop.jpg');
+  .xl\:bg-desktop-svg {
+    background-image: url('images/bg-desktop.svg');
   }
 
   .xl\:from-transparent {
@@ -160884,8 +160884,8 @@ video {
     background-image: linear-gradient(to top left, var(--tw-gradient-stops));
   }
 
-  .\32xl\:bg-image-header {
-    background-image: url('images/image-header-desktop.jpg');
+  .\32xl\:bg-desktop-svg {
+    background-image: url('images/bg-desktop.svg');
   }
 
   .\32xl\:from-transparent {
